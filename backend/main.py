@@ -192,7 +192,8 @@ async def get_chart(ticker: str):
         analysis = analyzer.full_analysis()
         
         # 計算技術指標
-        from ta.momentum import MACD, StochasticOscillator
+        from ta.trend import MACD
+        from ta.momentum import StochasticOscillator
         from ta.volatility import BollingerBands
         
         macd = MACD(df['Close'], window_fast=12, window_slow=26, window_sign=9)
