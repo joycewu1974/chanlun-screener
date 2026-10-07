@@ -14,7 +14,7 @@
     "react-dom": "^18.2.0",
     "axios": "^1.6.0",
     "plotly.js": "^2.26.0",
-    "react-plotly.js": "^2.11.0",
+    "react-plotly.js": "^2.6.0",
     "antd": "^5.11.0",
     "@ant-design/icons": "^5.2.6",
     "dayjs": "^1.11.10"
