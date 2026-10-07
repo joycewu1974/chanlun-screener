@@ -2,7 +2,8 @@ import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from fractal_analyzer import FractalAnalyzer
-from ta.momentum import MACD, StochasticOscillator
+from ta.trend import MACD
+from ta.momentum import StochasticOscillator
 from ta.volatility import BollingerBands
 import pandas as pd
 import json
