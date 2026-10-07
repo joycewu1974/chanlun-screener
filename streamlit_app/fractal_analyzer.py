@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
 import yfinance as yf
-from ta.momentum import MACD, StochasticOscillator
+from ta.trend import MACD
+from ta.momentum import StochasticOscillator
 from ta.volatility import AverageTrueRange, BollingerBands
 from typing import List, Dict, Tuple
 import warnings
